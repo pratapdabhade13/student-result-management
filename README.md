@@ -37,5 +37,20 @@ This project demonstrates the practical implementation of Python programming con
 
 ---
 
-## 📂 Project Structure
+## 🏆Steps to Run the Program
+
+1. Make sure Python is installed on your system.
+   (Download from https://www.python.org if not installed)
+
+2. Clone the repository or download the project files.
+
+3. Open Command Prompt / Terminal.
+
+4. Navigate to the project folder:
+   cd student-result-management
+
+5. Run the program using:
+   python main.py
+
+6. Follow the on-screen instructions to manage student records.
 
