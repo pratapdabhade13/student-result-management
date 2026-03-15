@@ -37,6 +37,19 @@ This project demonstrates the practical implementation of Python programming con
 
 ---
 
+## 🎯 Learning Outcomes
+
+- Understanding Python syntax and control structures
+- Implementation of functions and modular programming
+- File handling operations
+- Error handling and input validation
+- Menu-driven application development
+
+## 👨‍💻 Author
+Pratap Dabhade 
+
+---
+
 ## 🏆Steps to Run the Program
 
 1. Make sure Python is installed on your system.
