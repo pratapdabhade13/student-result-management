@@ -62,12 +62,12 @@ Pratap Dabhade
 4. Navigate to the project folder:
    cd student-result-management
 
-## Output Screenshot
-
-![Student Result Output](output.png)
-
 5. Run the program using:
    python main.py
+
+
+## Output Screenshot
+![Student Result Output](output.png)
 
 6. Follow the on-screen instructions to manage student records.
 
