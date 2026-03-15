@@ -4,15 +4,19 @@ FILE_NAME = "data.txt"
 
 def calculate_grade(percentage):
     if percentage >= 90:
+        return "O"
+    elif percentage >= 80:
         return "A+"
-    elif percentage >= 75:
+    elif percentage >= 70:
         return "A"
     elif percentage >= 60:
-        return "B"
+        return "B+"
     elif percentage >= 50:
-        return "C"
+        return "B"
+    elif percentage >= 40:
+        return "P"
     else:
-        return "Fail"
+        return "F"
 
 
 def calculate_result(marks):
