@@ -15,7 +15,9 @@ def add_student():
 
     total, percentage, grade = calculate_result(marks)
 
-    student_record = f"{roll},{name},{marks},{total},{percentage:.2f},{grade}"
+    marks_str = "|".join(map(str, marks))
+    student_record = f"{roll},{name},{marks_str},{total},{percentage:.2f},{grade}"
+
     save_student(student_record)
 
     print("Student record added successfully!")
@@ -32,6 +34,7 @@ def view_students():
 
     for student in students:
         roll, name, marks, total, percentage, grade = student.strip().split(",")
+        marks = marks.split("|")
 
         print(f"Roll No     : {roll}")
         print(f"Name        : {name}")
@@ -49,8 +52,19 @@ def search_student():
     found = False
     for student in students:
         if student.startswith(roll_search + ","):
-            print("Record Found:")
-            print(student.strip())
+            roll, name, marks, total, percentage, grade = student.strip().split(",")
+            marks = marks.split("|")
+
+            print("\nStudent Found")
+            print("-" * 60)
+            print(f"Roll No     : {roll}")
+            print(f"Name        : {name}")
+            print(f"Marks       : {marks}")
+            print(f"Total Marks : {total}")
+            print(f"Percentage  : {percentage}%")
+            print(f"Grade       : {grade}")
+            print("-" * 60)
+
             found = True
             break
 
