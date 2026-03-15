@@ -62,6 +62,10 @@ Pratap Dabhade
 4. Navigate to the project folder:
    cd student-result-management
 
+## Output Screenshot
+
+![Student Result Output](output.png)
+
 5. Run the program using:
    python main.py
 
